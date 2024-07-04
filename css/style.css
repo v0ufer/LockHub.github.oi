@@ -505,7 +505,6 @@ span::selection, select::selection {
 	width: 420px;
 	height: 287px;
 
-	background: #FFF;
 	z-index: 1;
 }
 

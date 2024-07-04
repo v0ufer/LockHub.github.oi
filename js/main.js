@@ -187,34 +187,34 @@ $(document).ready(function(){
 
     survival.onclick = function() {
         $(".funs__content_overlay_info_box h2").html("Выживание");
-        $(".funs__content_overlay_info_box p").html("На нашем сервере вы чудесно провести своё время.<br><br> Оптимизированный игровой процесс, интересные игровые механики, никаких креативок, и другого, искажающего изначальный смысл выживания");
+        $(".funs__content_overlay_info_box p").html("На нашем сервере вы чудесно проведёте своё время.<br><br> Оптимизированный игровой процесс, интересные игровые механики, никаких креативок, и другого, искажающего изначальный смысл выживания");
         $('.funs__content_overlay').fadeIn();
         $(".funs__content_overlay_info").addClass("modal-show-animation");
     }
 
     economy.onclick = function() {
         $(".funs__content_overlay_info_box h2").html("Механики");
-        $(".funs__content_overlay_info_box p").html("На сервере есть разные механики!<br>каждая механика удивительна по своему!");
+        $(".funs__content_overlay_info_box p").html("На сервере есть разные механики!<br>Каждая механика удивительна по своему!");
         $('.funs__content_overlay').fadeIn();
         $(".funs__content_overlay_info").addClass("modal-show-animation");
     }
 
     dungeons.onclick = function() {
         $(".funs__content_overlay_info_box h2").html("Игроки");
-        $(".funs__content_overlay_info_box p").html("На нашем сервере адекватные, честные, креативные, отзывчивые т творческие игроки. Которые всегда помогут!");
+        $(".funs__content_overlay_info_box p").html("На нашем сервере адекватные, честные, креативные, отзывчивые и творческие игроки. Которые всегда помогут!");
         $('.funs__content_overlay').fadeIn();
         $(".funs__content_overlay_info").addClass("modal-show-animation");
     }
 
     battlepass.onclick = function() {
         $(".funs__content_overlay_info_box h2").html("Администрация");
-        $(".funs__content_overlay_info_box p").html("На нашем сервере есть адекватная администрация!<br><br>Наша администрация всегда поможет в любой ситуации!!!");
+        $(".funs__content_overlay_info_box p").html("На нашем сервере адекватная администрация!<br><br>Наша администрация всегда поможет в любой ситуации!!!");
         $('.funs__content_overlay').fadeIn();
         $(".funs__content_overlay_info").addClass("modal-show-animation");
     }
 
     agreement.onclick = function() {
-        $(".funs__content_overlay_info_box h2").html("Угода");
+        $(".funs__content_overlay_info_box h2").html("Подписка");
         $(".funs__content_overlay_info_box p").html("Приобретение подписки является исключительно вашей инициативой. Возврат потраченных средств не предоставляется ни при каких условиях. Покупая донат вы автоматически подписываетесь под настоящим Соглашением.<br><br>При грубому порушенні правил (чисельні образи, чіти, гриферство тощо) донатер може втратити свій привілей без можливості повернення витрачених коштів.");
         $('.funs__content_overlay').fadeIn();
         $(".funs__content_overlay_info").addClass("modal-show-animation");
