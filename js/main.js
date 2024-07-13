@@ -208,14 +208,14 @@ $(document).ready(function(){
 
     battlepass.onclick = function() {
         $(".funs__content_overlay_info_box h2").html("Администрация");
-        $(".funs__content_overlay_info_box p").html("На нашем сервере адекватная администрация!<br><br>Наша администрация всегда поможет в любой ситуации!!!");
+        $(".funs__content_overlay_info_box p").html("На нашем сервере адекватная администрация!<br><br>Наша администрация всегда поможет в любой ситуации!<br><br>Владелец: <a class='text_link' target='_blank' href='https://vk.com/oper_upalnamo4enuy'>KsexWay</a> & <a class='text_link' target='_blank' href='https://vk.com/id508931810'>v0ufer</a><br><small>Писать по вопросам сотрудничества.</small>");
         $('.funs__content_overlay').fadeIn();
         $(".funs__content_overlay_info").addClass("modal-show-animation");
     }
 
     agreement.onclick = function() {
         $(".funs__content_overlay_info_box h2").html("Подписка");
-        $(".funs__content_overlay_info_box p").html("Приобретение подписки является исключительно вашей инициативой. Возврат потраченных средств не предоставляется ни при каких условиях. Покупая донат вы автоматически подписываетесь под настоящим Соглашением.<br><br>При грубому порушенні правил (чисельні образи, чіти, гриферство тощо) донатер може втратити свій привілей без можливості повернення витрачених коштів.");
+        $(".funs__content_overlay_info_box p").html("Приобретение подписки является исключительно вашей инициативой. Возврат потраченных средств не предоставляется ни при каких условиях. Покупая донат вы автоматически подписываетесь под настоящим Соглашением.<br><br>");
         $('.funs__content_overlay').fadeIn();
         $(".funs__content_overlay_info").addClass("modal-show-animation");
     }
