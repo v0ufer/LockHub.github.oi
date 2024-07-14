@@ -9,8 +9,8 @@ var TrademcAPI = {};
         
     self.GetOnline = function(params){
         params = extend(params, {
-            Shop: 1,
-            TextMask: 'Онлайн: {players} из {max_players}. Версія {version}',
+            Shop: '223119',
+            TextMask: 'Онлайн: {players} из {max_players}. Версия {version}',
             UIColor: '#333',
             Styles: defaultStylesPath + 'online.css',
             PastPlaceID: 'trademc-online'
@@ -55,9 +55,9 @@ var TrademcAPI = {};
             Shop: 1,
             Title: 'Купить подписку',
             Nickname: 'Введите ваш никнейм',
-            Items: 'Выбирите товар',
+            Items: 'Выберите товар',
             Coupon: 'Промокод(если есть)',
-            Button: 'ППродолжить',
+            Button: 'Продолжить',
             Success_URL: 'https://trademc.org',
             Pending_URL: 'https://trademc.org',
             Fail_URL: 'https://trademc.org',
@@ -199,7 +199,7 @@ var TrademcAPI = {};
             callback(answer);
 		}
 		xhr.onerror = function() {
-			callback({ error: { message: "Помилка." } });
+			callback({ error: { message: "Ошибка." } });
 		}
 		xhr.send();
     }
